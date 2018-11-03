@@ -23,9 +23,9 @@ body.uplay
 body:not(.discord):not(.uplay)
 {
 	background:#3a6073;
-	background:-moz-linear-gradient(-45deg, #8A2387 0%, #F27121 99%);
-	background:-webkit-linear-gradient(-45deg, #8A2387 0%, #F27121 99%);
-	background:linear-gradient(135deg, #8A2387 0%, #F27121 99%);
+	background:-moz-linear-gradient(-45deg, #FC466B 0%, #3F5EFB 99%);
+	background:-webkit-linear-gradient(-45deg, #FC466B 0%, #3F5EFB 99%);
+	background:linear-gradient(135deg, #FC466B 0%, #3F5EFB 99%);
 	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a6073', endColorstr='#16222a',GradientType=1 )
 }
 *
