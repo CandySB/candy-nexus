@@ -113,17 +113,18 @@ body:not(.discord):not(.uplay)
 	width:inherit;
 	height:inherit;
 	background-repeat:no-repeat;
-	background-size:85%;
+	background-size:100%;
 	background-position:center center;
-	border-radius:5px
+	border-radius:5px;
+	margin-top:5px
 }
-#content footer a .se7ensins
+#content footer a .cabconmodding
 {
-	background-image:url("images/se7ensins.png")
+	background-image:url("images/cabconmodding.png")
 }
-#content footer a .curse
+#content footer a .rainbowsix
 {
-	background-image:url("images/curse.png")
+	background-image:url("images/rainbowsix.png")
 }
 .d-container
 {
