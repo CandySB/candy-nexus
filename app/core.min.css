@@ -16,11 +16,7 @@ body.discord
 {
 	background-color:#2C2F33
 }
-body.uplay
-{
-	background-color:#0070FF
-}
-body:not(.discord):not(.uplay)
+body:not(.discord)
 {
 	background:linear-gradient(-45deg, #FC466B, #3F5EFB);
 	background-size:400% 400%;
@@ -195,63 +191,6 @@ body:not(.discord):not(.uplay)
 	height:50px;
 	right:16px;
 	background-color:#7289DA;
-	border-radius:3px;
-	padding:0 30px;
-	color:white;
-	line-height:50px;
-	text-decoration:none
-}
-.u-container
-{
-	display:flex;
-	width:100%;
-	height:100%;
-	justify-content:center;
-	align-items:center
-}
-.u-container .u-box
-{
-	max-width:600px;
-	width:90%
-}
-.u-container .u-box h2
-{
-	margin:0;
-	font-size:3rem;
-	font-weight:300
-}
-@media (max-width: 500px)
-{
-	.u-container .u-box h2
-	{
-		font-size:2.3rem
-	}
-}
-.u-container .u-box p
-{
-	margin:0;
-	margin-top:20px;
-	text-align:justify
-}
-.u-container .u-box .u-input
-{
-	position:relative;
-	background-color:#1B1C20;
-	border-radius:3px;
-	border:1px solid #212327;
-	color:white;
-	font-size:18px;
-	font-weight:300;
-	padding:30px;
-	margin-top:50px
-}
-.u-container .u-box .u-input .u-btn
-{
-	position:absolute;
-	top:16px;
-	height:50px;
-	right:16px;
-	background-color:#36A9E1;
 	border-radius:3px;
 	padding:0 30px;
 	color:white;
