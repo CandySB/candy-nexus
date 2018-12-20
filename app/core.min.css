@@ -16,7 +16,7 @@ body.discord
 {
 	background-color:#2C2F33
 }
-body:not(.discord)
+body:not(.discord):not(.projects)
 {
 	background:linear-gradient(-45deg, #FC466B, #3F5EFB);
 	background-size:400% 400%;
@@ -136,9 +136,9 @@ body:not(.discord)
 {
 	background-image:url("images/cabconmodding.png")
 }
-#content footer a .rainbowsix
+#content footer a .projects
 {
-	background-image:url("images/rainbowsix.png")
+	background-image:url("images/projects.png")
 }
 .d-container
 {
